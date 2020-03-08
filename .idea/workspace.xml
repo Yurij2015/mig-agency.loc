@@ -1,9 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4ec4f15-6788-44fc-afa0-3cc259d04f86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/evolution.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/mycompany.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/api/createNewPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/api/createNewPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/api/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/api/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/mainpage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/script.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/api/createNewPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/app/api/createNewPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/api/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/app/api/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/app/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/src/components/editor/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/app/src/components/editor/editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/app/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YpqlgN97IJTZvr2ursEDWJwHyl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/www/mig-agency.loc/admin" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="ts.external.directory.path" value="C:\Users\ADMIN\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\193.6494.47\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DockerProjects\PHP\mig-agency.loc\www\mig-agency.loc\admin" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4ec4f15-6788-44fc-afa0-3cc259d04f86" name="Default Changelist" comment="" />
+      <created>1583650035210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583650035210</updated>
+      <workItem from="1583650036650" duration="686000" />
+      <workItem from="1583651049068" duration="17094000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="850" height="197" key="GridCell.Tab.0.bottom" timestamp="1583659637841">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="850" height="197" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1583659637841" />
+    <state width="850" height="197" key="GridCell.Tab.0.center" timestamp="1583659637840">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="850" height="197" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1583659637840" />
+    <state width="850" height="197" key="GridCell.Tab.0.left" timestamp="1583659637838">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="850" height="197" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1583659637838" />
+    <state width="850" height="197" key="GridCell.Tab.0.right" timestamp="1583659637840">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="850" height="197" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1583659637840" />
+    <state x="277" y="59" key="SettingsEditor" timestamp="1583652578280">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="59" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1583652578280" />
+    <state x="444" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1583651051292">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="444" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1583651051292" />
   </component>
 </project>

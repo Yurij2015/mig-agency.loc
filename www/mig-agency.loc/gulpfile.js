@@ -7,7 +7,7 @@ const dist = "./admin";
 gulp.task("copy-html", () => {
     return gulp.src("./app/src/index.html")
         .pipe(gulp.dest(dist))
-})
+});
 
 gulp.task("build-js", () => {
     return gulp.src("./app/src/main.js")
@@ -39,23 +39,23 @@ gulp.task("build-js", () => {
             }
         }))
         .pipe(gulp.dest(dist))
-})
+});
 
 gulp.task("build-sass", () => {
     return gulp.src("./app/scss/style.scss")
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest(dist))
-})
+});
 
 gulp.task("copy-api", () => {
     return gulp.src("./app/api/**/*.*")
         .pipe(gulp.dest(dist + "/api"))
-})
+});
 
 gulp.task("copy-assets", () => {
     return gulp.src("./app/assets/**/*.*")
         .pipe(gulp.dest(dist + "/assets"))
-})
+});
 
 gulp.task("watch", () => {
     gulp.watch("./app/src/index.html", gulp.parallel("copy-html"));
@@ -63,7 +63,7 @@ gulp.task("watch", () => {
     gulp.watch("./app/api/**/*.*", gulp.parallel("copy-api"));
     gulp.watch("./app/scss/**/*.scss", gulp.parallel("build-sass"));
     gulp.watch("./app/src/**/*.js", gulp.parallel("build-js"));
-})
+});
 
 gulp.task("build", gulp.parallel("copy-html", "copy-assets", "copy-api", "build-sass", "build-js"));
 

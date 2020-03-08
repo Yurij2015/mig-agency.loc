@@ -8,7 +8,7 @@ export default class Editor extends Component {
         this.state = {
             pageList: [],
             newPageName: ""
-        }
+        };
         this.createNewPage = this.createNewPage.bind(this);
     }
 
@@ -46,7 +46,7 @@ export default class Editor extends Component {
                         onClick={() => this.deletePage(page)}>(x)</a>
                 </h1>
             )
-        })
+        });
         return (
             <>
                 <input
