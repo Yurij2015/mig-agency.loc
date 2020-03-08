@@ -2,29 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4ec4f15-6788-44fc-afa0-3cc259d04f86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/evolution.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/mycompany.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/companies/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/api/createNewPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/api/createNewPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/api/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/api/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/mainpage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/script.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/api/createNewPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/app/api/createNewPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/api/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/app/api/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/app/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/src/components/editor/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/app/src/components/editor/editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/app/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/api/createNewPage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/api/deletePage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/api/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/evolution.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/mycompany.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/script.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/api/createNewPage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/api/deletePage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/api/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/src/components/editor/editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/src/components/editor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,9 +65,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/www/mig-agency.loc/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/www/mig-agency.loc/companies" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,6 +81,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DockerProjects\PHP\mig-agency.loc\www\mig-agency.loc\companies" />
       <recent name="D:\DockerProjects\PHP\mig-agency.loc\www\mig-agency.loc\admin" />
     </key>
   </component>
@@ -79,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583650035210</updated>
       <workItem from="1583650036650" duration="686000" />
-      <workItem from="1583651049068" duration="17094000" />
+      <workItem from="1583651049068" duration="21724000" />
     </task>
     <servers />
   </component>
@@ -90,6 +107,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="694" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583683215791">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="694" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1583683215791" />
     <state width="850" height="197" key="GridCell.Tab.0.bottom" timestamp="1583659637841">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
