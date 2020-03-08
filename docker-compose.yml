@@ -1,0 +1,53 @@
+version: '3.6'
+
+services:
+  nginx_migagency:
+    image: nginx:latest
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./hosts:/etc/nginx/conf.d
+      - ./www:/var/www
+      - ./logs:/var/log/nginx
+    networks:
+      - backend
+      - frontend
+    depends_on:
+      - php_migagency
+      - mysql_migagency
+    container_name: nginx_migagency
+  php_taskcontrol:
+    build: ./images/php
+    volumes:
+      - ./www:/var/www
+    networks:
+      - backend
+    container_name: php_migagency
+  mysql_taskcontrol:
+    image: mysql:5.7
+    command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
+    ports:
+      - "22222:3306"
+    volumes:
+      - ./mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root3004917779
+      MYSQL_USER: migagency
+      MYSQL_PASSWORD: 3004917779
+      MYSQL_DATABASE: migagency
+    networks:
+      - backend
+    container_name: mysql_migagency
+  phpmyadmin_taskcontrol:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin_migagency
+    ports:
+      - 2222:80
+    links:
+      - mysql_migagency:db
+    networks:
+      - backend
+networks:
+  backend:
+  frontend:
