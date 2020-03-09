@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4ec4f15-6788-44fc-afa0-3cc259d04f86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/db_admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/edit-company-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/edit_config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/edit_header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/handlers/company-name-handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/modals/modal-company-name.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/companies/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/companies/db_public.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/companies/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/libraries/RedBeanPHP5_4_2-mysql/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/libraries/RedBeanPHP5_4_2-mysql/rb-mysql.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/companies/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/companies/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +43,31 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="migagency@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="migagency@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="migagency@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="migagency: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="migagency@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="migagency: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="city: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="migagency@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="migagency: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="companies: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -50,7 +88,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/www/mig-agency.loc/companies" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/www/mig-agency.loc/admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,12 +100,25 @@
     <property name="ts.external.directory.path" value="C:\Users\ADMIN\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\193.6494.47\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/mig-agency.loc/libraries" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/mig-agency.loc/admin" />
+      <recent name="$PROJECT_DIR$/www/mig-agency.loc" />
       <recent name="D:\DockerProjects\PHP\mig-agency.loc\www\mig-agency.loc\companies" />
       <recent name="D:\DockerProjects\PHP\mig-agency.loc\www\mig-agency.loc\admin" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="docker-compose.yml.phpmyadmin_migagency: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -83,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml.phpmyadmin_migagency: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -92,7 +144,45 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Compose: docker-compose.yml" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Compose: docker-compose.yml" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="mysql_migagency" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Compose: docker-compose.yml" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="nginx_migagency" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Compose: docker-compose.yml" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="php_migagency" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Compose: docker-compose.yml" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="phpmyadmin_migagency" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:migagency@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -111,6 +201,7 @@
       <updated>1583650035210</updated>
       <workItem from="1583650036650" duration="686000" />
       <workItem from="1583651049068" duration="23313000" />
+      <workItem from="1583771700316" duration="12081000" />
     </task>
     <servers />
   </component>
@@ -121,37 +212,48 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="694" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583683215791">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="2788" y="139" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583773636584">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="694" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1583683215791" />
+    <state x="2788" y="139" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583773636584" />
     <state x="491" y="140" key="#docker-compose.yml.phpmyadmin_migagency:_Compose_Deployment" timestamp="1583748804846">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="491" y="140" key="#docker-compose.yml.phpmyadmin_migagency:_Compose_Deployment/0.0.1536.834@0.0.1536.834" timestamp="1583748804846" />
-    <state width="1024" height="197" key="GridCell.Tab.0.bottom" timestamp="1583748842215">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1294" height="178" key="GridCell.Tab.0.bottom" timestamp="1583780552803">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1024" height="197" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1583748842215" />
-    <state width="1024" height="197" key="GridCell.Tab.0.center" timestamp="1583748842213">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1294" height="178" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583780552803" />
+    <state width="1294" height="178" key="GridCell.Tab.0.center" timestamp="1583780552801">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1024" height="197" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1583748842213" />
-    <state width="1024" height="197" key="GridCell.Tab.0.left" timestamp="1583748842210">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1294" height="178" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583780552801" />
+    <state width="1294" height="178" key="GridCell.Tab.0.left" timestamp="1583780552799">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1024" height="197" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1583748842210" />
-    <state width="1024" height="197" key="GridCell.Tab.0.right" timestamp="1583748842214">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1294" height="178" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583780552799" />
+    <state width="1294" height="178" key="GridCell.Tab.0.right" timestamp="1583780552802">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1024" height="197" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1583748842214" />
-    <state x="277" y="59" key="SettingsEditor" timestamp="1583652578280">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1294" height="178" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583780552802" />
+    <state x="2701" y="471" key="NewPhpFileDialog" timestamp="1583795392686">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2701" y="471" key="NewPhpFileDialog/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583795392686" />
+    <state x="2266" y="76" key="SettingsEditor" timestamp="1583780751338">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="277" y="59" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1583652578280" />
-    <state x="444" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1583651051292">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="2266" y="76" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583780751338" />
+    <state x="555" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1583771740431">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="444" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1583651051292" />
+    <state x="555" y="363" key="com.intellij.ide.util.TipDialog/1920.23.1876.1057/0.23.1920.1177@0.23.1920.1177" timestamp="1583771740431" />
   </component>
 </project>

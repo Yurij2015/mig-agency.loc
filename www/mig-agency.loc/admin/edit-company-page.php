@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<?php require_once "config.php"; ?>
-<html lang=<?=$lang?>>
-<?php require_once "header.php"; ?>
+<?php require_once "edit_config.php"; ?>
+<html lang=<?= $lang ?>>
+<?php require_once "edit_header.php"; ?>
 <body>
-
 <div class="jumbotron text-center" style="margin-bottom:0">
-    <h1><?=$company->companie_name?></h1>
-    <p><?=$company->description?></p>
+    <!-- Ссылка, вызывающее модальное окно -->
+    <h1><a href="#editTitleCompany" data-toggle="modal"
+           style="text-decoration: none;"><?= $company->companie_name ?></a></h1>
+    <p><?= $company->description ?></p>
 </div>
-
+<?php
+require_once "modals/modal-company-name.php";
+?>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
