@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4ec4f15-6788-44fc-afa0-3cc259d04f86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/companies/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/api/createNewPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/api/deletePage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/api/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/evolution.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/mycompany.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/script.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/api/createNewPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/api/deletePage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/api/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/src/components/editor/editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/src/components/editor/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/app/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +25,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="migagency@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="Git.Settings">
@@ -85,6 +67,38 @@
       <recent name="D:\DockerProjects\PHP\mig-agency.loc\www\mig-agency.loc\admin" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="docker-compose.yml.phpmyadmin_migagency: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="phpmyadmin_migagency" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.phpmyadmin_migagency: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -96,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583650035210</updated>
       <workItem from="1583650036650" duration="686000" />
-      <workItem from="1583651049068" duration="21724000" />
+      <workItem from="1583651049068" duration="23313000" />
     </task>
     <servers />
   </component>
@@ -111,22 +125,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="694" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1583683215791" />
-    <state width="850" height="197" key="GridCell.Tab.0.bottom" timestamp="1583659637841">
+    <state x="491" y="140" key="#docker-compose.yml.phpmyadmin_migagency:_Compose_Deployment" timestamp="1583748804846">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="850" height="197" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1583659637841" />
-    <state width="850" height="197" key="GridCell.Tab.0.center" timestamp="1583659637840">
+    <state x="491" y="140" key="#docker-compose.yml.phpmyadmin_migagency:_Compose_Deployment/0.0.1536.834@0.0.1536.834" timestamp="1583748804846" />
+    <state width="1024" height="197" key="GridCell.Tab.0.bottom" timestamp="1583748842215">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="850" height="197" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1583659637840" />
-    <state width="850" height="197" key="GridCell.Tab.0.left" timestamp="1583659637838">
+    <state width="1024" height="197" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1583748842215" />
+    <state width="1024" height="197" key="GridCell.Tab.0.center" timestamp="1583748842213">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="850" height="197" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1583659637838" />
-    <state width="850" height="197" key="GridCell.Tab.0.right" timestamp="1583659637840">
+    <state width="1024" height="197" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1583748842213" />
+    <state width="1024" height="197" key="GridCell.Tab.0.left" timestamp="1583748842210">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="850" height="197" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1583659637840" />
+    <state width="1024" height="197" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1583748842210" />
+    <state width="1024" height="197" key="GridCell.Tab.0.right" timestamp="1583748842214">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1024" height="197" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1583748842214" />
     <state x="277" y="59" key="SettingsEditor" timestamp="1583652578280">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
