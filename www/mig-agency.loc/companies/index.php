@@ -43,7 +43,7 @@
                 <h2 class="text-uppercase"><?= $single_article['article_name']; ?>
                 </h2>
                 <img src="<?= $single_article['images']; ?>" alt="" class="float-left  mr-3" width="400" ><?= $single_article->article_name; ?>
-                <p class="text-justify"><?= $single_article['content']; ?></p>
+                <p class="text-justify"><?= html_entity_decode($single_article['content']); ?></p>
                 <br>
                 <?php
             }
@@ -53,8 +53,17 @@
     </div>
 </div>
 
+<?php
+echo "Companies";
+?>
+<p>List of companies!</p>
+<ul>
+    <li><a href="/admin/edit-company-page.php?number_company=first" target="_blank">first</a></li>
+</ul>
+
+
 <div class="jumbotron text-center" style="margin-bottom:0">
-    <p>Footer</p>
+    <p><?= $company->companie_name ?></p>
 </div>
 
 </body>

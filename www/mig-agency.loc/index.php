@@ -23,31 +23,35 @@
 </div>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">MigAgency</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="login.php">Войти</a>
             </li>
         </ul>
     </div>
 </nav>
 
 <div class="container" style="margin-top:30px">
+    <p>Список страниц наших клиентов!</p>
+    <ul>
+        <li><a href="/companies/?number_company=first" target="_blank">Компания Феорана</a></li>
+        <li><a href="/companies/?number_company=first" target="_blank">ООО ДорСтрой</a></li>
+        <li><a href="/companies/?number_company=first" target="_blank">ООО Рекламные технологии</a></li>
+        <li><a href="/companies/?number_company=first" target="_blank">ООО Торговый дом МИП</a></li>
+        <li><a href="/companies/?number_company=first" target="_blank">ИП Макаров И. В. </a></li>
+
+
+    </ul>
 
 </div>
 
 <div class="jumbotron text-center" style="margin-bottom:0">
-    <p>Footer</p>
+    <p>Агентство МИГ</p>
 </div>
 
 </body>

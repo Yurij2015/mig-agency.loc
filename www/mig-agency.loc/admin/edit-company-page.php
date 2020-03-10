@@ -50,7 +50,7 @@ require_once "modals/modal-company-description.php";
                        style="text-decoration: none;" data-toggle="modal" data-target="#editArticle<?= $single_article['ida']; ?>.bd-example-modal-lg"><?= $single_article['article_name']; ?></a>
                 </h2>
                 <img src="<?= $single_article['images']; ?>" alt="" class="float-left  mr-3" width="400" ><?= $single_article->article_name; ?>
-                <p class="text-justify"><?= $single_article['content']; ?></p>
+                <p class="text-justify"><?= html_entity_decode($single_article['content']); ?></p>
                 <?php
                 require "modals/modal-article.php";
                 ?>
@@ -64,7 +64,7 @@ require_once "modals/modal-company-description.php";
 </div>
 
 <div class="jumbotron text-center mt-5" style="margin-bottom:0">
-    <p>Footer</p>
+    <p><?= $company->companie_name ?></p>
 </div>
 
 </body>

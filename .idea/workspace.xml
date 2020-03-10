@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4ec4f15-6788-44fc-afa0-3cc259d04f86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/images/Screenshot at Mar 10 08-31-04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/images/Screenshot at Sep 08 23-17-07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/images/kisspng-web-development-software-development-computer-prog-endive-5b5082312240b6.9194428315320028651403.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/images/shutterstock_154552895.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/edit-company-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/edit-company-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/handlers/article-handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/handlers/article-handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/modals/modal-article.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/modals/modal-article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/edit_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/edit_header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/companies/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/companies/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +87,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/www/mig-agency.loc/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/www/mig-agency.loc/libraries" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -106,11 +103,11 @@
       <recent name="$PROJECT_DIR$/www/mig-agency.loc/libraries" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/mig-agency.loc/libraries" />
       <recent name="$PROJECT_DIR$/www/mig-agency.loc/images" />
       <recent name="$PROJECT_DIR$/www/mig-agency.loc/admin/handlers" />
       <recent name="$PROJECT_DIR$/www/mig-agency.loc/admin/modals" />
       <recent name="$PROJECT_DIR$/www/mig-agency.loc/admin" />
-      <recent name="$PROJECT_DIR$/www/mig-agency.loc" />
     </key>
   </component>
   <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
@@ -209,7 +206,7 @@
       <updated>1583650035210</updated>
       <workItem from="1583650036650" duration="686000" />
       <workItem from="1583651049068" duration="23313000" />
-      <workItem from="1583771700316" duration="32666000" />
+      <workItem from="1583771700316" duration="35346000" />
     </task>
     <servers />
   </component>
@@ -249,10 +246,10 @@
     </state>
     <state width="1024" height="197" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1583748842214" />
     <state width="1294" height="178" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583780552802" />
-    <state x="2701" y="471" key="NewPhpFileDialog" timestamp="1583795392686">
+    <state x="2701" y="471" key="NewPhpFileDialog" timestamp="1583821293311">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2701" y="471" key="NewPhpFileDialog/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583795392686" />
+    <state x="2701" y="471" key="NewPhpFileDialog/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583821293311" />
     <state x="2619" y="173" key="RollbackChangesDialog" timestamp="1583808431391">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
