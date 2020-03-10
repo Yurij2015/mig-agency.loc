@@ -16,12 +16,13 @@
                         <label for="article_name">Изменить запись</label>
                         <input type="text" name="article_name" class="form-control" id="article_name"
                                value="<?= $single_article['article_name']; ?>">
-                        <input type="text" name="companie_id" hidden value="<?= $single_article['ida'] ?>">
+                        <input type="text" name="article_id" hidden value="<?= $single_article['ida'] ?>">
+                        <input type="text" name="number_company" hidden value="<?= $company->number_company ?>">
                     </div>
                     <div class="form-group">
-                        <label>
-                            <textarea class="form-control"><?= $single_article['content']; ?></textarea>
-                        </label>
+                        <label for="content"> </label>
+                        <textarea id="content" name="content" class="form-control"
+                                  rows="4"><?= $single_article['content']; ?></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Сохранить</button>
                 </form>

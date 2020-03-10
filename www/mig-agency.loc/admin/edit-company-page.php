@@ -41,22 +41,42 @@ require_once "modals/modal-company-description.php";
     <div class="row">
         <div class="col-sm-12">
             <?php
-            $articles = R::getAll('SELECT *, a.id as ida FROM companies_articles JOIN articles a on companies_articles.articles_id = a.id JOIN companies c on companies_articles.companies_id = c.id');
+            $number_company = $company->number_company;
+            $articles = R::getAll("SELECT *, articles.id as ida FROM articles JOIN companies_articles ca on articles.id = ca.articles_id JOIN companies c on ca.companies_id = c.id WHERE c.number_company = '{$number_company}'");
             foreach ($articles as $single_article) {
                 ?>
                 <h2 class="text-uppercase">
                     <a href="#"
                        style="text-decoration: none;" data-toggle="modal" data-target="#editArticle<?= $single_article['ida']; ?>.bd-example-modal-lg"><?= $single_article['article_name']; ?></a>
                 </h2>
-                <div class="fakeimg"><img src="" alt=""><?= $single_article['article_name']; ?></div>
+                <div class="fakeimg"><img src="" alt=""><?= $single_article->article_name; ?></div>
                 <p><?= $single_article['content']; ?></p>
                 <?php
-                $p = $single_article['ida'];
-                require "modals/modal-article.php"; ?>
+                require "modals/modal-article.php";
+                ?>
                 <br>
                 <?php
             }
             ?>
+
+<!--            --><?php
+//            $articles = R::getAll('SELECT * FROM articles');
+//            foreach ($articles as $single_article) {
+//                ?>
+<!--                <h2 class="text-uppercase">-->
+<!--                    <a href="#"-->
+<!--                       style="text-decoration: none;" data-toggle="modal" data-target="#editArticle--><?//= $single_article['ida']; ?><!--.bd-example-modal-lg">--><?//= $single_article['article_name']; ?><!--</a>-->
+<!--                </h2>-->
+<!--                <div class="fakeimg"><img src="" alt="">--><?//= $single_article['article_name']; ?><!--</div>-->
+<!--                <p>--><?//= $single_article['content']; ?><!--</p>-->
+<!--                --><?php
+//                require "modals/modal-article.php";
+//                ?>
+<!--                <br>-->
+<!--                --><?php
+//            }
+//            ?>
+
         </div>
     </div>
 </div>

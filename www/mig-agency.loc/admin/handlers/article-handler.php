@@ -7,14 +7,15 @@
  */
 require_once "../db_admin.php";
 if ($_POST) {
-    $companie_name = trim(htmlspecialchars($_POST['companie_name']));
-    $id = $_POST['companie_id'];
-    $company = R::findOne('companies', 'id = ?', ["$id"]);
-    $number_company = $company->number_company;
-    if (!empty($companie_name)) {
-        $companies = R::load('companies', $id);
-        $companies->companie_name = $companie_name;
-        R::store($companies);
+    $article_name = trim(htmlspecialchars($_POST['article_name']));
+    $content= trim(htmlspecialchars($_POST['content']));
+    $id = $_POST['article_id'];
+    $number_company = $_POST['number_company'];
+    if (!empty($article_name)) {
+        $article = R::load('articles', $id);
+        $article->article_name = $article_name;
+        $article->content = $content;
+        R::store($article);
         header('Location: ../edit-company-page.php?number-company=' . $number_company);
     }
 }
