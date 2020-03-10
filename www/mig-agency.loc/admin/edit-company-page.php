@@ -37,23 +37,26 @@ require_once "modals/modal-company-description.php";
         </ul>
     </div>
 </nav>
-
 <div class="container" style="margin-top:30px">
     <div class="row">
         <div class="col-sm-12">
-            <h2>TITLE HEADING</h2>
-            <div class="fakeimg">Fake Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco.</p>
-            <br>
-            <h2>TITLE HEADING</h2>
-            <div class="fakeimg">Fake Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco.</p>
+            <?php
+            $articles = R::getAll('SELECT *, a.id as ida FROM companies_articles JOIN articles a on companies_articles.articles_id = a.id JOIN companies c on companies_articles.companies_id = c.id');
+            foreach ($articles as $single_article) {
+                ?>
+                <h2 class="text-uppercase">
+                    <a href="#"
+                       style="text-decoration: none;" data-toggle="modal" data-target="#editArticle<?= $single_article['ida']; ?>.bd-example-modal-lg"><?= $single_article['article_name']; ?></a>
+                </h2>
+                <div class="fakeimg"><img src="" alt=""><?= $single_article['article_name']; ?></div>
+                <p><?= $single_article['content']; ?></p>
+                <?php
+                $p = $single_article['ida'];
+                require "modals/modal-article.php"; ?>
+                <br>
+                <?php
+            }
+            ?>
         </div>
     </div>
 </div>

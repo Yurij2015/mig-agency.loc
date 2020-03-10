@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4ec4f15-6788-44fc-afa0-3cc259d04f86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/handlers/company-description-handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/modals/modal-company-description.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/handlers/article-handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/modals/modal-article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/edit-company-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/edit-company-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/companies/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/companies/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/companies/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/companies/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +43,13 @@
         <item name="migagency@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="migagency: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="migagency@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="migagency: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="articles: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -209,7 +213,7 @@
       <updated>1583650035210</updated>
       <workItem from="1583650036650" duration="686000" />
       <workItem from="1583651049068" duration="23313000" />
-      <workItem from="1583771700316" duration="17039000" />
+      <workItem from="1583771700316" duration="23453000" />
     </task>
     <servers />
   </component>
@@ -253,19 +257,19 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2701" y="471" key="NewPhpFileDialog/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583795392686" />
-    <state x="2619" y="173" key="RollbackChangesDialog" timestamp="1583798473614">
+    <state x="2619" y="173" key="RollbackChangesDialog" timestamp="1583808431391">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2619" y="173" key="RollbackChangesDialog/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583798473614" />
+    <state x="2619" y="173" key="RollbackChangesDialog/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583808431391" />
     <state x="2266" y="76" key="SettingsEditor" timestamp="1583780751338">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="277" y="59" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1583652578280" />
     <state x="2266" y="76" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583780751338" />
-    <state x="2616" y="231" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583799963678">
+    <state x="2616" y="231" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583802691413">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2616" y="231" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583799963678" />
+    <state x="2616" y="231" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583802691413" />
     <state x="555" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1583771740431">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
