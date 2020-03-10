@@ -11,7 +11,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form method="post" action="handlers/article-handler.php">
+                <form method="post" action="handlers/article-handler.php" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="article_name">Изменить запись</label>
                         <input type="text" name="article_name" class="form-control" id="article_name"
@@ -23,6 +23,10 @@
                         <label for="content"> </label>
                         <textarea id="content" name="content" class="form-control"
                                   rows="4"><?= $single_article['content']; ?></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Загрузить изображение</label>
+                        <input type="file" class="form-control" name="fileToUpload" id="fileToUpload">
                     </div>
                     <button type="submit" class="btn btn-primary">Сохранить</button>
                 </form>
