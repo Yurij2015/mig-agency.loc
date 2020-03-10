@@ -2,64 +2,46 @@
 <?php require_once "edit_config.php"; ?>
 <html lang=<?= $lang ?>>
 <?php require_once "edit_header.php"; ?>
-<body>
+<body class="container">
+
 <div class="jumbotron text-center" style="margin-bottom:0">
     <!-- Ссылка, вызывающее модальное окно -->
     <h1><a href="#editTitleCompany" data-toggle="modal"
            style="text-decoration: none;"><?= $company->companie_name ?></a></h1>
-    <p><?= $company->description ?></p>
+    <p><a href="#editDescription" data-toggle="modal"
+          style="text-decoration: none;"><?= $company->description ?></a></p>
 </div>
 <?php
 require_once "modals/modal-company-name.php";
+require_once "modals/modal-company-description.php";
 ?>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">CompanyProfile</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
+            <?php
+            require_once "db_admin.php";
+            $menu = R::getAll('SELECT * FROM menu');
+            foreach ($menu as $item_menu) {
+                ?>
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="/?item_menu=<?= $item_menu['item_name']; ?>"><?= $item_menu['slug']; ?></a>
+                </li>
+                <?php
+            }
+            ?>
         </ul>
     </div>
 </nav>
 
 <div class="container" style="margin-top:30px">
     <div class="row">
-        <div class="col-sm-4">
-            <h2>About Me</h2>
-            <h5>Photo of me:</h5>
-            <div class="fakeimg">Fake Image</div>
-            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-            <h3>Some Links</h3>
-            <p>Lorem ipsum dolor sit ame.</p>
-            <ul class="nav nav-pills flex-column">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-            </ul>
-            <hr class="d-sm-none">
-        </div>
-        <div class="col-sm-8">
+        <div class="col-sm-12">
             <h2>TITLE HEADING</h2>
-            <h5>Title description, Dec 7, 2017</h5>
             <div class="fakeimg">Fake Image</div>
             <p>Some text..</p>
             <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
@@ -67,7 +49,6 @@ require_once "modals/modal-company-name.php";
                 ullamco.</p>
             <br>
             <h2>TITLE HEADING</h2>
-            <h5>Title description, Sep 2, 2017</h5>
             <div class="fakeimg">Fake Image</div>
             <p>Some text..</p>
             <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod

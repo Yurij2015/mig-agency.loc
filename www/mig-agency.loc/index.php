@@ -15,7 +15,7 @@
         }
     </style>
 </head>
-<body>
+<body class="container">
 
 <div class="jumbotron text-center" style="margin-bottom:0">
     <h1>Компании</h1>

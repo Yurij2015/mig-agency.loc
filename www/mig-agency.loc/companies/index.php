@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <?php require_once "config.php"; ?>
-<html lang=<?=$lang?>>
+<html lang=<?= $lang ?>>
 <?php require_once "header.php"; ?>
-<body>
+<body class="container">
 
 <div class="jumbotron text-center" style="margin-bottom:0">
-    <h1><?=$company->companie_name?></h1>
-    <p><?=$company->description?></p>
+    <h1><?= $company->companie_name ?></h1>
+    <p><?= $company->description ?></p>
 </div>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">CompanyProfile</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
+            <?php
+            require_once "db_public.php";
+
+            ?>
+
+
             <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
             </li>

@@ -3,7 +3,7 @@
     <?php
     if (isset($_GET['number_company'])) {
         $number_company = $_GET['number_company'];
-        echo $number_company;
+//        echo $number_company;
     } else {
         echo "Компания не выбрана";
     }
