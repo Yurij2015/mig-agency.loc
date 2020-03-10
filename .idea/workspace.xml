@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4ec4f15-6788-44fc-afa0-3cc259d04f86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/www/mig-agency.loc/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/edit-company-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/edit-company-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/admin/edit_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/admin/edit_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/companies/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/companies/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mig-agency.loc/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mig-agency.loc/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +91,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="ts.external.directory.path" value="C:\Users\ADMIN\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\193.6494.47\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -182,11 +178,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:migagency@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:migagency@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@36dfbcfd" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -206,7 +197,7 @@
       <updated>1583650035210</updated>
       <workItem from="1583650036650" duration="686000" />
       <workItem from="1583651049068" duration="23313000" />
-      <workItem from="1583771700316" duration="35346000" />
+      <workItem from="1583771700316" duration="36146000" />
     </task>
     <servers />
   </component>
@@ -254,11 +245,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2619" y="173" key="RollbackChangesDialog/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583808431391" />
-    <state x="2266" y="76" key="SettingsEditor" timestamp="1583780751338">
+    <state x="2266" y="76" key="SettingsEditor" timestamp="1583822490409">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="277" y="59" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1583652578280" />
-    <state x="2266" y="76" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583780751338" />
+    <state x="2266" y="76" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1583822490409" />
     <state x="2749" y="424" width="340" height="239" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1583814515237">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

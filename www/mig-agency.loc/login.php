@@ -6,7 +6,7 @@ $hash_pass = "202cb962ac59075b964b07152d234b70";
 if ($_POST['submit']) {
     if ($users == $_POST['user'] AND $hash_pass == md5(($_POST['pass']))) {
         $_SESSION['admin'] = $users;
-        header("Location: index.php");
+        header("Location: /admin/edit-company-page.php");
         exit;
     } else {
         echo '
